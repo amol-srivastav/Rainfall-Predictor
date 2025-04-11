@@ -10,6 +10,7 @@ import io
 
 # Set title
 st.title("Rainfall Prediction using LSTM")
+st.markdown("##### *Project by Amol Srivastava1, Abadhan Saumya Sabyasachi1 [0000-0002-2409-7746], and Md Hassan1*")
 
 # File uploader
 uploaded_file = st.file_uploader("Upload your rainfall CSV file", type=["csv"])
